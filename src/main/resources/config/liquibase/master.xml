@@ -15,7 +15,56 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144719_added_entity_Adherencia.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144720_added_entity_Agenda.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144721_added_entity_Alarma.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144722_added_entity_Caloria.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144723_added_entity_Condicion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144724_added_entity_CuestionarioEstado.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144725_added_entity_Dispositivo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144726_added_entity_Encuesta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144727_added_entity_Farmaceutica.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144728_added_entity_Fisiometria1.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144729_added_entity_FrecuenciaCardiaca.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144730_added_entity_Ingesta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144731_added_entity_IPS.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144732_added_entity_Medicamento.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144733_added_entity_Notificacion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144734_added_entity_Oximetria.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144735_added_entity_Paciente.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144736_added_entity_Pasos.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144737_added_entity_Peso.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144738_added_entity_Pregunta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144739_added_entity_PresionSanguinea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144740_added_entity_Programa.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144741_added_entity_Sueno.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144742_added_entity_Temperatura.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144743_added_entity_TokenDisp.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144744_added_entity_TratamientoMedicamento.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144745_added_entity_Tratamieto.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210503144719_added_entity_constraints_Adherencia.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144720_added_entity_constraints_Agenda.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144721_added_entity_constraints_Alarma.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144722_added_entity_constraints_Caloria.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144724_added_entity_constraints_CuestionarioEstado.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144725_added_entity_constraints_Dispositivo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144726_added_entity_constraints_Encuesta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144728_added_entity_constraints_Fisiometria1.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144729_added_entity_constraints_FrecuenciaCardiaca.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144730_added_entity_constraints_Ingesta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144733_added_entity_constraints_Notificacion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144734_added_entity_constraints_Oximetria.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144735_added_entity_constraints_Paciente.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144736_added_entity_constraints_Pasos.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144737_added_entity_constraints_Peso.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144738_added_entity_constraints_Pregunta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144739_added_entity_constraints_PresionSanguinea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144740_added_entity_constraints_Programa.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144741_added_entity_constraints_Sueno.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144742_added_entity_constraints_Temperatura.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144743_added_entity_constraints_TokenDisp.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210503144744_added_entity_constraints_TratamientoMedicamento.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
